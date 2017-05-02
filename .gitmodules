@@ -1,0 +1,7 @@
+[submodule "osqonnector"]
+    path = osqonnector
+    url = git://github.com/srozb/osqonnector.git
+
+[submodule "osqmanager"]
+    path = osqmanager
+    url = git://github.com/srozb/osqmanager.git
