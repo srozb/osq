@@ -12,7 +12,7 @@
 --disable_distributed=false
 --distributed_plugin=tls
 --distributed_tls_read_endpoint=/osquery/distributed/read
---distributed_tls_write_endpoint=/osquery/distrbuted/write
+--distributed_tls_write_endpoint=/osquery/distributed/write
 --distributed_interval=180
 --disable_audit=true
 --audit_allow_config=true
