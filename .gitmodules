@@ -5,3 +5,7 @@
 [submodule "osqmanager"]
     path = osqmanager
     url = git://github.com/srozb/osqmanager.git
+
+[submodule "osqprocessor"]
+    path = osqprocessor
+    url = git@github.com:srozb/osqprocessor.git

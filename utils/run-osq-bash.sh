@@ -6,5 +6,5 @@ docker run \
   --name osqueryd \
   --net host \
   -v `pwd`/scripts:/scripts \
-  kolide/osquery \
+  srozb/osquery \
   bash
