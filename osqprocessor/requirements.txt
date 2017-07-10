@@ -1,2 +1,0 @@
-python-deamon>=2.1
-redis>=2.10
