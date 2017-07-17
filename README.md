@@ -23,12 +23,14 @@ and stuff like:
 
 ## slowstart
 
+1. clone this repo with submodules: `git clone --recursive https://github.com/srozb/osq.git`
 1. generate tls certificates and deploy it to your osquery clients (`haproxy/gen-certs.sh` might help)
 2. generate enrollment secret and flagfile and deploy it to your clients
 3. run haproxy (or nginx) and osqmanager docker containers
 4. run DB (like postgresql or sqlite)
 5. configure database backend in django `settings.py` and make sure it works for your DB
 6. make django migrations
+8. install default dataset with `./manage.py install`
 7. run `osqonnector` container and make sure it uses the same database as `osqmanager`
 8. create `default` bussiness unit in your database using `osqmanager`
 9. create `default` config template using osqmanager
