@@ -32,6 +32,7 @@ and stuff like:
 7. configure database backend in django `settings.py` and make sure it works for your DB
 8. make django migrations `./manage.py makemigrations && ./manage.py migrate`
 9. install default dataset with `./manage.py install`
+10. create django superuser `./manage.py createsuperuser`
 10. run `osqmanager` container
 11. run `osqonnector` container and make sure it uses the same database as `osqmanager`
 12. you may also create some tags and tag assignment rules to auto-assign new clients (in osqmanager admin panel)
