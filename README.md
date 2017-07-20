@@ -28,12 +28,13 @@ and stuff like:
 3. generate enrollment secret and flagfile and deploy it to your clients
 4. run haproxy container (or any other LB/reverse proxy)
 5. run DB (like postgresql or sqlite)
-6. configure database backend in django `settings.py` and make sure it works for your DB
-7. make django migrations `./manage.py makemigrations && ./manage.py migrate`
-8. install default dataset with `./manage.py install`
-9. run `osqmanager` container
-9. run `osqonnector` container and make sure it uses the same database as `osqmanager`
-10. you may also create some tags and tag assignment rules to auto-assign new clients (in osqmanager admin panel)
-11. configure and run `osqprocessor`
-12. inspect all the logs for errors
-13. deploy osquery to your clients (consult osquery configuration for more info)
+6. run redis container
+7. configure database backend in django `settings.py` and make sure it works for your DB
+8. make django migrations `./manage.py makemigrations && ./manage.py migrate`
+9. install default dataset with `./manage.py install`
+10. run `osqmanager` container
+11. run `osqonnector` container and make sure it uses the same database as `osqmanager`
+12. you may also create some tags and tag assignment rules to auto-assign new clients (in osqmanager admin panel)
+13. configure and run `osqprocessor`
+14. inspect all the logs for errors
+15. deploy osquery to your clients (consult osquery configuration for more info)
